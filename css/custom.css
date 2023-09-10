@@ -1,0 +1,99 @@
+::-moz-selection {
+	color: #FFF;
+	background: #7cc142;
+}
+
+::selection {
+	color: #FFF;
+	background: #7cc142;
+}
+
+:root {
+	--primary: #7cc142;
+	--secondary: #5f9934;
+	--tertiary: #2baab1;
+	--quaternary: #383f48;
+}
+
+html .text-color-primary,
+html .text-primary {
+	color: #5f9934 !important;
+}
+
+#header .header-nav-main nav > ul > li > a.active {
+	color: #7cc142 !important;
+}
+
+#header .header-nav-main nav > ul > li > a.active:before {
+	border-color: #7cc142;
+}
+
+#header .header-nav-main nav > ul > li:hover > a.active,
+#header .header-nav-main nav > ul > li.open > a.active {
+	color: #7cc142 !important;
+}
+
+#header .header-nav-main nav > ul > li:hover > a.active:before,
+#header .header-nav-main nav > ul > li.open > a.active:before {
+	border-color: #7cc142;
+}
+
+#footer {
+	background: #212529;
+	border-top: 4px solid #212529;
+	font-size: 1em;
+	margin-top: 50px;
+	padding: 0;
+	position: relative;
+	clear: both;
+}
+
+#narrower {
+	padding-top: 40px !important;
+	padding-bottom: 40px !important;
+	margin-top: 30px;
+	margin-bottom: -50px !important;
+}
+
+#flyer {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+	border-top: 0px !important;
+}
+
+html .svg-fill-color-primary {
+	fill: #5f9934 !important;
+}
+
+.bg-gradient {
+	background-color: #7cc142 !important;
+	background-image: linear-gradient(to right, #7cc142 0%, #5f9934 100%) !important;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088cc', endColorstr='#0169fe', GradientType=1);
+}
+
+.btn-gradient:not(.btn-outline) {
+	background: linear-gradient(135deg, #7cc142 0%, #5f9934 80%) !important;
+	color: #FFF;
+}
+
+.btn-gradient:not(.btn-outline):hover,
+.btn-gradient:not(.btn-outline).hover {
+	background: linear-gradient(135deg, #5f9934 0%, #7cc142 80%) !important;
+	color: #FFF;
+}
+
+.btn-gradient:not(.btn-outline):focus,
+.btn-gradient:not(.btn-outline).focus {
+	box-shadow: 0 0 0 3px rgba(0, 136, 204, 0.5);
+}
+
+.btn-gradient:not(.btn-outline).disabled,
+.btn-gradient:not(.btn-outline):disabled {
+	background: linear-gradient(135deg, #7cc142 0%, #5f9934 80%) !important;
+}
+
+.btn-gradient:not(.btn-outline):active,
+.btn-gradient:not(.btn-outline).active {
+	background: linear-gradient(135deg, #7cc142 0%, #5f9934 80%) !important;
+	color: #FFF !important;
+}

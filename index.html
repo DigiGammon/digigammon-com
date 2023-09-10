@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<title>DIGIGAMMON - Automatic Backgammon Transcription System</title>
+
+		<meta name="keywords" content="backgammon transcription automatic digital artificial intelligence" />
+		<meta name="description" content="Nekodu Technology presents Digigammon Automatic Near-Real-Time Backgammon Transcription System: Transcribing backgammon matches has never been this easy!">
+		<meta name="author" content="Digigammon">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+
+		<!-- Web Fonts  -->
+		<link id="googleFonts" href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700%7CLora:400,500,700&display=swap" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="vendor/fontawesome-free/css/all.min.css">
+
+		<link rel="stylesheet" href="vendor/animate/animate.compat.css">
+
+		<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.min.css">
+
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.carousel.min.css">
+
+		<link rel="stylesheet" href="vendor/owl.carousel/assets/owl.theme.default.min.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="css/theme.css">
+		<link rel="stylesheet" href="css/theme-elements.css">
+
+
+		<!-- Demo CSS -->
+		<link rel="stylesheet" href="css/digigammon.css">
+
+		<!-- Skin CSS -->
+		<link id="skinCSS" rel="stylesheet" href="css/skins/skin-digigammon.css">
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="css/custom.css">
+
+		<!-- Head Libs -->
+		<script src="vendor/modernizr/modernizr.min.js"></script>
+
+	</head>
+	<body data-plugin-scroll-spy data-plugin-options="{'target': '.wrapper-spy'}">
+
+		<div class="body">
+			<header id="header" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': false, 'stickyStartAtElement': '#header', 'stickySetTop': '0', 'stickyChangeLogo': false}">
+				<div class="header-body">
+					<div class="header-container container-fluid px-0">
+						<div class="header-row">
+							<div class="header-column w-lg-25pct">
+								<div class="header-row">
+									<div class="header-logo px-4">
+										<a href="index.html">
+											<img alt="Digigammon" width="246" height="22" src="img/logo.png">
+										</a>
+									</div>
+								</div>
+							</div>
+							<div class="header-column justify-content-center w-lg-100pct">
+								<div class="header-row">
+									<div class="header-nav justify-content-center">
+										<div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1">
+											<nav class="wrapper-spy collapse">
+												<ul class="nav nav-pills" id="mainNav">
+													<li>
+														<a class="nav-link active" href="#home" data-hash>
+															Home
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#who-we-are" data-hash data-hash-offset="0" data-hash-offset-lg="32">
+															Who We Are
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#how-it-works" data-hash data-hash-offset="0" data-hash-offset-lg="32">
+															How It Works
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#monster-kit" data-hash data-hash-offset="0" data-hash-offset-lg="32">
+															Digi Monster
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#demonstration" data-hash data-hash-offset="0" data-hash-offset-lg="32">
+															See In Action
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#contact-us" data-hash data-hash-offset="0" data-hash-offset-lg="32">
+															Contact Us
+														</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="header-column w-100pct w-lg-25pct justify-content-end">
+								<div class="header-row px-4">
+									<div class="d-none d-sm-flex align-items-center">
+										<img width="30" height="30" src="img/mail.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light me-1'}" />
+										<a href="mailto:info@nekodu.com" class="text-color-light font-weight-semibold opacity-hover-9 text-decoration-none">info<i class="fa fa-at"></i>nekodu.com</a>
+									</div>
+									<button class="btn header-btn-collapse-nav btn-gradient" data-bs-toggle="collapse" data-bs-target=".header-nav-main nav">
+										<i class="fas fa-bars"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div role="main" class="main">
+
+				<div class="position-relative">
+					<div class="d-none d-sm-block position-absolute top-50pct transform3dy-n50 right-15 z-index-3 pe-3">
+						<ul class="d-flex flex-column social-icons social-icons-clean social-icons-icon-light social-icons-medium">
+							<li class="social-icons-facebook my-1">
+								<a href="http://www.facebook.com/digigammon" class="text-color-quaternary" target="_blank" title="Facebook">
+									<i class="fab fa-facebook-f"></i>
+								</a>
+							</li>
+							<li class="social-icons-instagram my-1">
+								<a href="http://www.instagram.com/digigammon" class="text-color-quaternary" target="_blank" title="Instagram">
+									<i class="fab fa-instagram"></i>
+								</a>
+							</li>
+							<li class="social-icons-youtube my-1">
+								<a href="http://www.youtube.com/@digigammon" class="text-color-quaternary" target="_blank" title="Youtube">
+									<i class="fab fa-youtube"></i>
+								</a>
+							</li>
+							<li class="social-icons-twitter my-1">
+								<a href="http://www.twitter.com/digigammon" class="text-color-quaternary" target="_blank" title="Twitter">
+									<i class="fab fa-twitter"></i>
+								</a>
+							</li>
+							<li class="social-icons-linkedin my-2">
+								<a href="http://www.linkedin.com/company/nekodutech" class="text-color-quaternary" target="_blank" title="Linkedin">
+									<i class="fab fa-linkedin-in"></i>
+								</a>
+							</li>
+							<li class="social-icons-discord my-2">
+								<a href="https://discord.gg/bgQTXRwX" class="text-color-quaternary" target="_blank" title="Discord">
+									<i class="fab fa-discord"></i>
+								</a>
+							</li>						
+						</ul>
+					</div>
+					<div id="home" class="owl-carousel owl-carousel-light owl-carousel-light-init-fadeIn owl-theme manual custom-dots-style-1 dots-inside dots-horizontal-center show-dots-hover show-dots-xs dots-light nav-style-1 nav-inside nav-inside-plus nav-light nav-md nav-font-size-md show-nav-hover mb-0" data-plugin-options="{'autoplayTimeout': 7000, 'autoplay': false}" style="height: 100vh;">
+						<div class="owl-stage-outer">
+							<div class="owl-stage">
+
+								<!-- Carousel Slide  1-->
+								<div class="owl-item position-relative" style="background-image: url(img/flag.jpg); background-size: cover; background-position: center;">
+									<div class="container position-relative z-index-3 h-100">
+										<div class="row justify-content-center align-items-center h-100">
+											<div class="col-lg-7 text-center mb-4 pb-5 pb-lg-0">
+												<h2 class="text-color-light font-weight-semibold text-3 text-sm-4 line-height-1 positive-ls-2 mb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000">
+													NEKODU TECHNOLOGY PRESENTS
+												</h2>
+												<h1 class="text-color-light font-weight-bold text-11 text-sm-13 text-md-14 line-height-1 position-relative mb-3 pb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1200">
+													Digigammon Automatic Backgammon Transcription System
+												</h1>
+												<p class="text-4 text-color-light px-md-5 pb-3 mx-md-5 mb-3 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1400">Transcribing backgammon games has never been this easy! Get your transcription in no-time!</p>
+												
+												<a href="https://igg.me/at/digigammon/x#/" target="_blank" class="btn btn-gradient custom-btn-effect-1 custom-border-radius-1 d-inline-flex align-items-center font-weight-semibold text-3-5 btn-px-5 btn-py-3 appear-animation" data-hash data-hash-offset="0" data-hash-offset-lg="32" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600" data-appear-animation-duration="1.7s">
+													CONTRIBUTE TO DIGIGAMMON
+												</a>
+												<br><br>
+												
+												<a href="https://www.dropbox.com/s/icuuoy0wzsddbq9/digitimer.zip?dl=0" target="_blank" class="btn btn-gradient custom-btn-effect-1 custom-border-radius-1 d-inline-flex align-items-center font-weight-semibold text-3-5 btn-px-5 btn-py-3 appear-animation" data-hash data-hash-offset="0" data-hash-offset-lg="32" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1600" data-appear-animation-duration="1.7s">
+													DOWNLOAD & TRY DIGIGAMMON
+												</a>	
+												<br><br>											
+												<a href="#indiegogovideo" class="d-inline-flex align-items-center text-color-light font-weight-bold text-4 text-decoration-none custom-link-effect-1 appear-animation" data-hash data-hash-offset="0" data-hash-offset-lg="32" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
+													Find Out More
+													<img width="15" height="15" src="img/arrow-down.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'removeClassAfterInit': 'fadeIn', 'extraClass': 'svg-fill-color-light ms-2'}" />
+												</a>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<section id="indiegogovideo" class="section parallax border-0 p-0 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'scrollableParallax': true, 'scrollableParallaxMinWidth': 991, 'startOffset': 5, 'cssProperty': 'width', 'cssValueStart': 40, 'cssValueEnd': 100, 'cssValueUnit': 'vw'}" data-image-src="img/blank.gif">
+					<div class="d-flex justify-content-center">
+						<div class="scrollable-parallax-wrapper bg-gradient overflow-hidden">
+							<div class="container custom-container-style-3 custom-container-position-1 py-5 mx-0">
+								<div class="row align-items-center">
+									<div class="col text-center">
+										<h3 class="text-color-light font-weight-semibold text-3 positive-ls-2 mb-0">INDIEGOGO CAMPAIGN</h3>
+										<h2 class="text-color-light font-weight-bold text-transform-none text-10 mb-3">Contribute to Us</h2>
+										<p class="text-color-light font-weight-light text-3-5 pb-1 mb-4">Support us on Indiegogo, make Digigammon Automatic Backgammon Transcription System FREE and OPEN-SOURCE!</p>
+									</div>
+									<div class="ratio ratio-16x9">
+										<!-- <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/l-epKcOA7RQ?showinfo=0&amp;wmode=opaque"></iframe> -->
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/GijWBFYQq1E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="call-to-action call-to-action-default bg-color-primary with-button-arrow content-align-center">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-lg-9">
+								<div class="call-to-action-content">
+									<h2 class="font-weight-normal text-color-light text-6 mb-0">Contribute to our project, <strong class="font-weight-extra-bold">make Digigammon FREE!</strong></h2>
+								</div>
+							</div>
+							<div class="col-md-3 col-lg-3">
+								<div class="call-to-action-btn">
+									<a href="https://igg.me/at/digigammon/x#/" target="_blank" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Contribute to Digigammon</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="who-we-are" class="section section-height-3 bg-transparent border-0 m-0">
+					<div class="container py-4">
+						<div class="row align-items-center justify-content-center">
+							<div class="col-lg-6 mb-5 mb-lg-0">
+								<img src="img/about-us.png" alt="Nekodu Technology and Digigammon logos" class="img-fluid" />
+							</div>
+							<div class="col-lg-6 pe-lg-5 mb-5 mb-lg-0">
+								<div class="overflow-hidden">
+									<h2 class="text-color-primary font-weight-semibold text-3 line-height-7 positive-ls-2 mb-0 appear-animation" data-appear-animation="maskUp">ABOUT US</h2>
+								</div>
+								<div class="overflow-hidden mb-3">
+									<h3 class="text-color-dark font-weight-bold text-transform-none line-height-1 text-10 mb-0 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">Who We Are</h3>
+								</div>
+								<p class="text-color-dark custom-font-secondary text-5-5 line-height-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">As <a href="https://nekodu.com" class="text-color-primary" target="_blank" title="Nekodu Technology">Nekodu Technology</a>, our mission is to provide practical and sustainable digital solutions to the life’s complex problems. </p>
+								<p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">We are a team of backgammon-enthusiasts, and our first project, Digigammon, is dedicated to boost the interest in backgammon worldwide and to facilitate the development of backgammon.</p>
+								<p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">To this end, we present Digigammon Automatic Backgammon Transcription System, a fully-automated system that provides you with almost-real-time match transcription with 100% accuracy.</p>
+								<a href="#how-it-works" class="d-inline-flex align-items-center text-color-primary font-weight-bold text-4 text-decoration-none custom-link-effect-1 appear-animation" data-hash data-hash-offset="0" data-hash-offset-lg="32" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
+									Find Out More
+									<img width="15" height="15" src="img/arrow-down.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'removeClassAfterInit': 'fadeIn', 'extraClass': 'svg-fill-color-primary ms-2'}" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section section-height-3 bg-gradient border-0 m-0 appear-animation" data-appear-animation="fadeIn">
+					<div class="container py-3">
+						<div class="row counters text-center">
+							<div class="col-sm-6 col-lg-3 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="500">
+								<img width="95" height="95" src="img/code.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light mb-2'}" />
+								<div class="counter">
+									<strong class="text-color-light text-10 negative-ls-2" data-to="3" data-append="+">0</strong>
+									<label class="text-color-light font-weight-medium text-3 opacity-6 mb-0 line-height-1">YEARS OF DEVELOPMENT</label>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 mb-5 mb-lg-0 appear-animation" data-appear-animation="fadeInLeftShorterPlus" data-appear-animation-delay="300">
+								<img width="95" height="95" src="img/user.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light mb-2'}" />
+								<div class="counter">
+									<strong class="text-color-light text-10 negative-ls-2" data-to="50" data-append="+">0</strong>
+									<label class="text-color-light font-weight-medium text-3 opacity-6 mb-0 line-height-1">USERS TESTED</label>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 mb-5 mb-sm-0 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="300">
+								<img width="95" height="95" src="img/trans.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light mb-2'}" />
+								<div class="counter">
+									<strong class="text-color-light text-10 negative-ls-2" data-to="300" data-append="+">0</strong>
+									<label class="text-color-light font-weight-medium text-3 opacity-6 mb-0 line-height-1">MATCHES TESTED</label>
+								</div>
+							</div>
+							<div class="col-sm-6 col-lg-3 appear-animation" data-appear-animation="fadeInRightShorterPlus" data-appear-animation-delay="500">
+								<img width="95" height="95" src="img/star.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light mb-2'}" />
+								<div class="counter">
+									<strong class="text-color-light text-10 negative-ls-2" data-to="100" data-append="%">0</strong>
+									<label class="text-color-light font-weight-medium text-3 opacity-6 mb-0 line-height-1">ACCURACY</label>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section id="how-it-works" class="section section-height-3 bg-transparent border-0 m-0">
+					<div class="container py-4">
+						<div class="row align-items-center justify-content-center">
+							<div class="col-lg-6 pe-lg-5 mb-5 mb-lg-0">
+								<div class="overflow-hidden">
+									<h2 class="text-color-primary font-weight-semibold text-3 line-height-7 positive-ls-2 mb-0 appear-animation" data-appear-animation="maskUp">ABOUT DIGIGAMMON</h2>
+								</div>
+								<div class="overflow-hidden mb-3">
+									<h3 class="text-color-dark font-weight-bold text-transform-none line-height-1 text-10 mb-1 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">How It Works</h3>
+								</div>
+								<p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Digigammon is an automatic backgammon transcription system based on state-of-the-art artificial intelligence technologies. It is a 2-software package working in harmony: Digitimer and Transcriptor.</p>
+							</div>
+							<div class="col-lg-6 mb-5 mb-lg-5">
+								<img src="img/timerandtranscriptor.png" alt="Logos and interfaces of Digitimer and Transcriptor applications" class="img-fluid" />
+							</div>
+						</div>
+						<div class="row align-items-center justify-content-center">
+							<div class="col-lg-6 mb-5 mb-lg-5">
+								<img src="img/setup.png" alt="Digigammon system setup" class="img-fluid" />
+							</div>
+							<div class="col-lg-6 pe-lg-5 mb-5 mb-lg-5">
+								<p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">The setup is easy: A Digigammon installed Windows device, notebook or tablet, besides the backgammon board and a webcam above. You record your match like all the time, except this time with Digitimer.</p>
+							</div>
+						</div>
+						<div class="row align-items-center justify-content-center">
+							<div class="col-lg-6 pe-lg-5 mb-5 mb-lg-5">
+								<p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Digitimer serves boths as a timer, and it also recognizes your board, detects the checkers, the dice and the cube. It visually processes your match and prepares it for the final transcription phase.</p>
+							</div>
+							<div class="col-lg-6 mb-5 mb-lg-5">
+								<img src="img/timer-detection.png" alt="Digitimer detects checkers, dice and cube" class="img-fluid" />
+							</div>
+						</div>
+						<div class="row align-items-center justify-content-center">
+							<div class="col-lg-6 mb-5 mb-lg-5">
+								<img src="img/transcribing.png" alt="Transcriptor is transcribing a match file" class="img-fluid" />
+							</div>
+							<div class="col-lg-6 pe-lg-5 mb-5 mb-lg-5">
+								<p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Transcriptor gets its input from Digitimer, a processed match file. By communicating with GNU Backgammon, it produces a transcription file compatible with popular analysis tools, like eXtreme Gammon.</p>
+							</div>
+						</div>
+						<div class="row align-items-center justify-content-center">
+							<div class="col-lg-6 pe-lg-5 mb-5 mb-lg-5">
+								<p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Rarely, if there is an illegal move in the match or a detection problem, Transcriptor may ask your input. It then continues the transcription process with the correct move.</p>
+							</div>
+							<div class="col-lg-6 mb-5 mb-lg-5">
+								<img src="img/transcriptor-user.png" alt="Transcriptor sometimes requires user input to continue" class="img-fluid" />
+							</div>
+						</div>
+						<div class="row align-items-center justify-content-center">
+							<div class="col-lg-6 mb-5 mb-lg-5">
+								<img src="img/transcribed.png" alt="From match vidos to transcription and analysis" class="img-fluid" />
+							</div>
+							<div class="col-lg-6 pe-lg-5 mb-5 mb-lg-5">
+								<p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Your transcription will be ready in a few minutes after the match! Have fun immediately learning your pr and analyzing your blunders!</p>
+								<a href="#monster-kit" class="d-inline-flex align-items-center text-color-primary font-weight-bold text-4 text-decoration-none custom-link-effect-1 appear-animation" data-hash data-hash-offset="0" data-hash-offset-lg="32" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="800">
+									Find Out About Digigammon Monster
+									<img width="15" height="15" src="img/arrow-down.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'removeClassAfterInit': 'fadeIn', 'extraClass': 'svg-fill-color-primary ms-2'}" />
+								</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="call-to-action call-to-action-default bg-color-primary with-button-arrow content-align-center">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-lg-9">
+								<div class="call-to-action-content">
+									<h2 class="font-weight-normal text-color-light text-6 mb-0"><strong class="font-weight-extra-bold">Make Digigammon FREE</strong> for the entire community!</h2>
+								</div>
+							</div>
+							<div class="col-md-3 col-lg-3">
+								<div class="call-to-action-btn">
+									<a href="https://igg.me/at/digigammon/x#/" target="_blank" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Contribute to Digigammon</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section border-0 m-0">
+					<div class="container py-4">
+						<div class="row align-items-center text-center">
+							<div class="col text-center">
+								<h2 class="font-weight-bold custom-title text-color-dark mb-2">Transcription has never been this easy!</h2>
+								<p class="text-color-dark font-weight-light custom-content">We want you to have more time to focus more on where you derive the most value in life and in backgammon. <br>Stay tuned and do not forget to follow us!</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col text-center">
+								<ul class="footer-social-icons social-icons social-icons-clean align-center social-icons-icon-dark mb-0">
+									<li class="social-icons-facebook mx-1"><a href="http://www.facebook.com/digigammon" target="_blank" title="Facebook"><i class="fab fa-facebook-f text-4"></i></a></li>
+									<li class="social-icons-instagram mx-1"><a href="http://www.instagram.com/digigammon" target="_blank" title="Instagram"><i class="fab fa-instagram text-4"></i></a></li>
+									<li class="social-icons-youtube mx-1"><a href="http://www.youtube.com/@digigammon" target="_blank" title="Youtube"><i class="fab fa-youtube text-4"></i></a></li>
+									<li class="social-icons-twitter mx-1"><a href="http://www.twitter.com/digigammon" target="_blank" title="Twitter"><i class="fab fa-twitter text-4"></i></a></li>
+									<li class="social-icons-linkedin mx-1"><a href="http://www.linkedin.com/company/nekodutech" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in text-4"></i></a></li>
+									<li class="social-icons-discord mx-1"><a href="https://discord.gg/bgQTXRwX" target="_blank" title="Discord"><i class="fab fa-discord text-4"></i></a></li>	
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="container-fluid">
+					<div class="row featured-boxes-full featured-boxes-full-scale">
+						<div class="col-lg-4 featured-box-full featured-box-full-primary">
+							<i class="fas fa-video"></i>
+							<h4>Record your match with Digitimer.</h4>
+							<p class="font-weight-light">It is a recorder, timer and a scoreboard! Did you forget who played what? You can check it with Digitimer!</p>
+						</div>
+						<div class="col-lg-4 featured-box-full featured-box-full-primary">
+							<i class="fas fa-exchange-alt"></i>
+							<h4>Transcribe your match with Transcriptor.</h4>
+							<p class="font-weight-light">Use transcriptor to process your match. If there is an illegal move, enter the correct move!</p>
+						</div>
+						<div class="col-lg-4 featured-box-full featured-box-full-primary">
+							<i class="fas fa-search"></i>
+							<h4>Analyze your moves!</h4>
+							<p class="font-weight-light">Your transcription is ready within minutes after the match! See your pr immediately! </p>
+						</div>
+					</div>
+				</div>
+
+
+				<section id="monster-kit" class="section border-0 position-relative py-0 m-0">
+					<div class="container-fluid">
+						<div class="row">
+							<div class="col-lg-6 p-0">
+								<div class="h-100 m-0">
+									<div class="row m-0">
+										<div class="col-half-section col-half-section-right ms-auto py-5">
+											<div class="px-3 py-5">
+												<div class="overflow-hidden">
+													<h2 class="text-color-primary font-weight-semibold text-3 line-height-7 positive-ls-2 mb-0 appear-animation" data-appear-animation="maskUp">THE BEST</h2>
+												</div>
+												<div class="overflow-hidden mb-3">
+													<h3 class="text-color-dark font-weight-bold text-transform-none line-height-1 text-10 mb-2 appear-animation" data-appear-animation="maskUp" data-appear-animation-delay="200">Digi Monster</h3>
+												</div>
+												<p class="text-color-dark custom-font-secondary text-5-5 line-height-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="400">It is a game-changer! With Digi Monster, no one will be able to stand in your way!</p>
+												<p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">Digi Monster brings the best parts together for the best transcription experience. It comes with an extremely powerful gaming laptop with a touch-screen, a super elegant and practical mounting system, and a reliable high-quality webcam.</p>
+												<p class="text-3-5 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="600">In addition to our transcription applications, Digitimer and Transcriptor; it has eXtreme Gammon and GNU Backgammon installed. So, with Digi Monster, you can get your transcription immediately after the match and start analyzing your moves!</p>
+												<div class="row mt-5">
+													<div class="col text-left">
+														<a href="mailto:info@nekodu.com" class="btn btn-primary popup-with-form font-weight-semibold text-4 btn-px-5 btn-py-2">Pre-order Monster Kit for €2999</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-6 p-0">
+								<section id="flyer" class="section m-0" style="min-height: 315px;">
+									<img src="img/digimonster.jpg" alt="Logos and interfaces of Digitimer and Transcriptor applications" class="img-fluid" />
+								</section>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section section-height-1 bg-transparent border-0 m-0">
+					<div class="container position-relative pb-3 mb-0">
+						<div class="row justify-content-center pb-2 mb-0">
+							<div class="row py-4">
+								<h2 class="text-color-primary text-center font-weight-semibold text-3 positive-ls-2 mb-0">WHAT IS INCLUDED</h2>
+								<h3 class="text-color-dark text-center font-weight-bold text-transform-none text-10 mb-4">Digi Monster</h3>
+								<p class="appear-animation text-center" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500">Everything DIGI MONSTER has is the best of the best. As we said, it is more than a transcription setup.</p>
+							</div>
+							<div class="content-grid">
+								<div class="row content-grid-row text-center">
+									<div class="col-md-6 col-lg-4 content-grid-item flex-column p-5">
+										<img src="img/asus.png" class="img-fluid mb-4" alt="" />
+										<h3 class="font-weight-semibold text-transform-none text-5 mb-3">Asus ROG Flow Z13 Gaming Laptop-Tablet</h3>
+										<p class="mb-0">A super powerful gaming laptop-tablet with RTX3050 graphics card.</p>
+									</div>
+									<div class="col-md-6 col-lg-4 content-grid-item flex-column p-5">
+										<img src="img/elgato.png" class="img-fluid mb-4" alt="" />
+										<h3 class="font-weight-semibold text-transform-none text-5 mb-3">elgato Master Mount S and Flex Arm L</h3>
+										<p class="mb-0">An elegant, portable and secure mounting system from the best.</p>
+									</div>
+									<div class="col-md-6 col-lg-4 content-grid-item flex-column p-5">
+										<img src="img/logitech.png" class="img-fluid mb-4" alt="" />
+										<h3 class="font-weight-semibold text-transform-none text-5 mb-3">Logitech C920 HD PRO Webcam</h3>
+										<p class="mb-0">A highly reliable webcam of superior quality.</p>
+									</div>
+									<div class="col-md-6 col-lg-4 content-grid-item flex-column p-5">
+										<img src="img/digitimer.png" class="img-fluid mb-4" alt="" />
+										<h3 class="font-weight-semibold text-transform-none text-5 mb-3">Digigammon Digitimer</h3>
+										<p class="mb-0">To record your match. It is a smart timer-scoreboard application.</p>
+									</div>
+									<div class="col-md-6 col-lg-4 content-grid-item flex-column p-5">
+										<img src="img/transcriptor.png" class="img-fluid mb-4" alt="" />
+										<h3 class="font-weight-semibold text-transform-none text-5 mb-3">Digigammon Transcriptor</h3>
+										<p class="mb-0">To transcribe your match. Powered with AI tools and optimization algorithms.</p>
+									</div>
+									<div class="col-md-6 col-lg-4 content-grid-item flex-column p-5">
+										<img src="img/xg.png" class="img-fluid mb-4" alt="" />
+										<h3 class="font-weight-semibold text-transform-none text-5 mb-3">eXtreme Gammon</h3>
+										<p class="mb-0">To analyze your moves. The best and the most popular.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="call-to-action call-to-action-default bg-color-primary with-button-arrow content-align-center call-to-action-in-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-9 col-lg-9">
+								<div class="call-to-action-content">
+									<h2 class="font-weight-normal text-color-light text-6 mb-0">Pre-order your <strong class="font-weight-extra-bold">Digigammon Monster Kit</strong> and  save <strong class="font-weight-extra-bold">17%</strong></h2>
+									<!-- <p class="mb-0">The Best HTML Site Template on ThemeForest</p> -->
+								</div>
+							</div>
+							<div class="col-md-3 col-lg-3">
+								<div class="call-to-action-btn">
+									<a href="mailto:info@nekodu.com" target="_blank" class="btn btn-dark btn-lg text-3 font-weight-semibold px-4 py-3">Pre-order Now</a><span class="arrow hlb d-none d-md-block" data-appear-animation="rotateInUpLeft" style="top: -40px; left: 70%;"></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section border-0 m-0">
+					<div class="container">
+						<div class="row py-5">
+							<div class="col">
+								<h2 class="text-color-primary font-weight-semibold text-3 positive-ls-2 mb-0">WHAT THEY SAID</h2>
+								<h3 class="text-color-dark font-weight-bold text-transform-none text-10 mb-5">Testimonials</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col">
+								<div class="owl-carousel custom-dots-style-1 dots-dark mb-0" data-plugin-options="{'responsive': {'576': {'items': 1}, '768': {'items': 1}, '992': {'items': 2}, '1200': {'items': 2}}, 'autoplay': true, 'autoplayTimeout': 7000, 'loop': true, 'dots': true, 'nav': false}">
+									<div>
+										<div class="custom-testimonial-style-1 testimonial testimonial-with-quotes testimonial-remove-right-quote testimonial-style-2 text-start mb-0">
+											<blockquote class="pt-0">
+												<p class="text-color-dark font-weight-medium text-5 line-height-6">I would like to express my strongest support for Digigammon that can resolve a time-consuming, annoying challenge: manual transcription. The human labor hours saved by Digigammon will be tens of thousands every year.</p>
+												<div class="divider divider-small divider-small-sm ps-4 ms-3">
+													<hr>
+												</div>
+												<div class="testimonial-author ps-4 ms-3">
+													<p class="alternative-font-4 text-start">
+														<strong class="font-weight-medium text-color-dark opacity-9">Marc Brockmann Olsen</strong>
+													</p>
+												</div>
+											</blockquote>
+										</div>
+									</div>
+									<div>
+										<div class="custom-testimonial-style-1 testimonial testimonial-with-quotes testimonial-remove-right-quote testimonial-style-2 text-start mb-0">
+											<blockquote class="pt-0">
+												<p class="text-color-dark font-weight-medium text-5 line-height-6">It was a great experience to test out near-real-time automatic transcription software provided by DIGIGAMMON. The transcription of our 7pt-match with Jurgen took only 3 minutes.</p>
+												<div class="divider divider-small divider-small-sm ps-4 ms-3">
+													<hr>
+												</div>
+												<div class="testimonial-author ps-4 ms-3">
+													<p class="alternative-font-4 text-start">
+														<strong class="font-weight-medium text-color-dark opacity-9">Michihito Kageyama</strong>
+													</p>
+												</div>
+											</blockquote>
+										</div>
+									</div>
+									<div>
+										<div class="custom-testimonial-style-1 testimonial testimonial-with-quotes testimonial-remove-right-quote testimonial-style-2 text-start mb-0">
+											<blockquote class="pt-0">
+												<p class="text-color-dark font-weight-medium text-5 line-height-6">I tested Digigammon at Merit Park. The program is amazing, the Team is outstanding. That is for sure a clear TAKE. Can‘t wait for a chance to get this tool.</p>
+												<div class="divider divider-small divider-small-sm ps-4 ms-3">
+													<hr>
+												</div>
+												<div class="testimonial-author ps-4 ms-3">
+													<p class="alternative-font-4 text-start">
+														<strong class="font-weight-medium text-color-dark opacity-9">Michael Weidner</strong>
+													</p>
+												</div>
+											</blockquote>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="demonstration" class="section parallax border-0 p-0 m-0" data-plugin-parallax data-plugin-options="{'speed': 1.5, 'scrollableParallax': true, 'scrollableParallaxMinWidth': 991, 'startOffset': 5, 'cssProperty': 'width', 'cssValueStart': 40, 'cssValueEnd': 100, 'cssValueUnit': 'vw'}" data-image-src="img/blank.gif">
+					<div class="d-flex justify-content-center">
+						<div class="scrollable-parallax-wrapper bg-gradient overflow-hidden">
+							<div class="container custom-container-style-3 custom-container-position-1 py-5 mx-0">
+								<div class="row align-items-center">
+									<div class="col text-center">
+										<h3 class="text-color-light font-weight-semibold text-3 positive-ls-2 mb-0">DEMONSTRATIONS</h3>
+										<h2 class="text-color-light font-weight-bold text-transform-none text-10 mb-3">See in Action</h2>
+										<p class="text-color-light font-weight-light text-3-5 pb-1 mb-4">They put our name to the test in Montenegro: Bianco vs. Bogidar. A huge 3-hour match, transcription under 8 minutes!</p>
+									</div>
+									<div class="ratio ratio-16x9">
+										<!-- <iframe frameborder="0" allowfullscreen="" src="//www.youtube.com/embed/l-epKcOA7RQ?showinfo=0&amp;wmode=opaque"></iframe> -->
+										<iframe width="560" height="315" src="https://www.youtube.com/embed/CjBZ5e6C150" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+									</div>
+									<div class="py-4"> </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="section section-height-3 overlay-op-9 border-0 m-0">
+					<div class="container">
+						<div class="row">
+							<div class="col text-center">
+								<h2 class="font-weight-bold custom-title text-color-dark mb-2">Pre-order Digigammon Monster</h2>
+								<p class="text-color-dark font-weight-light custom-content">With Digigammon Monster Kit, your transcription will be ready within minutes after the match!</p>
+							</div>
+							<div class="row justify-content-center text-center">
+								<div class="col">
+									<a href="mailto:info@nekodu.com" target="_blank" class="btn btn-primary font-weight-semibold px-5 btn-py-2 text-2">Pre-order Digi Monster</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="contact-us" class="section bg-transparent border-0 m-0">
+					<div class="container py-3">
+						<div class="row">
+							<div class="col">
+								<h2 class="text-color-primary font-weight-semibold text-3 positive-ls-2 mb-0">GET IN TOUCH</h2>
+								<h3 class="text-color-dark font-weight-bold text-transform-none text-10 mb-5">Contact Info</h3>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-lg-6 p-0">
+									<div class="row justify-content-end m-0 appear-animation" data-appear-animation="fadeInLeftShorter" data-appear-animation-delay="350">
+											<div class="col-half-section col-half-section-right ps-4">
+												<p class="text-color-dark custom-font-secondary text-5-5 line-height-4">Feel free to ask for details, don't save any questions!</p>
+												<p class="text-color-dark line-height-9 text-3-5 mb-3-3">As Nekodu Technology, we would always love to hear from you.</p>
+												<p class="text-color-dark line-height-9 text-3-5 mb-3-3">We are ready to answer any and all questions about Digigammon Transcription System.</p>
+											</div>
+									</div>
+							</div>
+							<div class="col-lg-6 p-0">
+								<div class="row m-0">
+										<div class="col-half-section col-half-section-left ps-lg-3">
+											<div class="d-flex align-items-center my-4-5">
+													<img width="38" height="38" src="img/mail.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
+													<a href="mailto:info@nekodu.com" class="text-3-5 font-weight-bold text-color-primary opacity-hover-8 text-decoration-none ps-3-5">info<i class="fa fa-at"></i>nekodu.com</a>
+											</div>
+											<div class="d-flex align-items-center pe-lg-3 mb-3">
+													<img width="38" height="38" src="img/map-pin.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
+													<p class="text-color-primary font-weight-bold text-3 mb-0 ps-3-5 pe-lg-5 me-lg-4">312 W 2nd St, Casper, WY 82601, USA</p>
+											</div>
+											<div class="d-flex align-items-center pe-lg-3 mb-3">
+													<img width="38" height="38" src="img/map-pin.svg" alt="" data-icon data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}" />
+													<p class="text-color-primary font-weight-bold text-3 mb-0 ps-3-5 pe-lg-5 me-lg-4">Çınarlı Mh. 1572. Sk. No:33 35170 Konak, İzmir, Türkiye</p>
+											</div>
+										</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+
+				<section id="narrower" class="call-to-action call-to-action-default bg-color-primary with-button-arrow content-align-center call-to-action-in-footer">
+					<div class="container">
+						<div class="row">
+							<div class="call-to-action-content">
+								<h2 class="font-weight-normal text-color-light text-6 mb-2">Follow us on <strong class="font-weight-extra-bold">social media:</strong></h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col text-center">
+								<ul class="footer-social-icons social-icons social-icons-clean align-center social-icons-icon-dark mb-0">
+									<li class="social-icons-facebook mx-1"><a href="http://www.facebook.com/digigammon" target="_blank" title="Facebook"><i class="fab fa-facebook-f text-4"></i></a></li>
+									<li class="social-icons-instagram mx-1"><a href="http://www.instagram.com/digigammon" target="_blank" title="Instagram"><i class="fab fa-instagram text-4"></i></a></li>
+									<li class="social-icons-youtube mx-1"><a href="http://www.youtube.com/@digigammon" target="_blank" title="Youtube"><i class="fab fa-youtube text-4"></i></a></li>
+									<li class="social-icons-twitter mx-1"><a href="http://www.twitter.com/digigammon" target="_blank" title="Twitter"><i class="fab fa-twitter text-4"></i></a></li>
+									<li class="social-icons-linkedin mx-1"><a href="http://www.linkedin.com/company/nekodutech" target="_blank" title="Linkedin"><i class="fab fa-linkedin-in text-4"></i></a></li>
+									<li class="social-icons-discord mx-1"><a href="https://discord.gg/bgQTXRwX" target="_blank" title="Discord"><i class="fab fa-discord text-4"></i></a></li>	
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</div>
+		<footer id="footer">
+			<div class="container">
+				<div class="row py-4 my-4">
+					<div class="col-md-6 mb-4 mb-lg-0">
+						<a href="index.html" class="logo pe-0 pe-lg-3">
+							<img alt="Digigammon" src="img/logo.png" class="opacity-7 bottom-4" height="32">
+						</a>
+						<div class="py-2">
+							<a href="https://nekodu.com" target="_blank" class="link-hover-style-1 ms-1">from Nekodu Technology Inc</a>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-6">
+								<ul class="list list-icons list-icons-sm">
+									<li><i class="fas fa-angle-right"></i><a href="faq.html" target="_blank" class="link-hover-style-1 ms-1"> FAQ's</a></li>
+									<li><i class="fas fa-angle-right"></i><a href="terms.html" class="link-hover-style-1 ms-1" target="_blank"> Terms and Conditions</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright footer-copyright-style-2">
+				<div class="container py-4">
+					<div class="row py-2">
+						<div class="col d-flex align-items-center justify-content-center">
+							<p>© Copyright 2023 <a href="https://nekodu.com" target="_blank">Nekodu Technology Inc.</a> All Rights Reserved. <a href="terms.html" target="_blank">Terms and Conditions.</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+
+
+		<!-- Vendor -->
+
+		<script src="vendor/plugins/js/plugins.min.js"></script>
+
+
+		<!-- Theme Base, Components and Settings -->
+		<script src="js/theme.js"></script>
+
+		<!-- Demo -->
+		<script src="js/digigammon.js"></script>
+
+		<!-- Theme Custom -->
+
+		<script src="js/custom.js"></script>
+
+
+		<!-- Theme Initialization Files -->
+		<script src="js/theme.init.js"></script>
+
+	</body>
+</html>

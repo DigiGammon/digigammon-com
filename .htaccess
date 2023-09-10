@@ -1,0 +1,2 @@
+RewriteEngine on
+ErrorDocument 404 https://www.digigammon.com/404.html

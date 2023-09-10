@@ -1,0 +1,75 @@
+[x] Header
+	[x] change header structure? > Not necessary
+	[x] edit pre-order monster kit button
+[x] About Us
+	[x] fix more than 100% accuracy
+[x] Transition
+	[x] updated figures
+[x] About Digigammon
+	[x] maybe shorten?
+	[x] new detection visual
+	[x] more captivating structure
+[x] Transition - easy transcription
+	[x] after stay tuned... add social media icons
+[x] Transition - steps
+	[x] edit lorem ipsum texts, or delete?
+	[x] edit icons
+[ ] Digigammon Monster
+	[ ] new flag image, and new flyer
+	[x] create digimonster text
+	[x] better structure
+	[x] add preorder button after the text ?
+	[x] edit logos
+	[x] edit brand names and add explanations
+	[x] edit button coloring
+[x] Transition - save 17%?
+[x] Testimonials
+	[x] get testimonials from mark, from the first customer
+	[x] maybe add one from the social media, from an important person
+[x] Demonstration
+	[x] change demonstration text and video
+[x] Transition - preorder
+	[x] maybe after the demonstration part?
+	[x] edit button coloring
+[x] Contact
+	[x] Remove contact form
+	[x] emphasize social media
+[x] Transition - save 17%
+	[x] maybe move
+	[x] social media items
+[x] Footer
+	[x] emphasize texts more
+	[x] rearrange spacing
+[ ] Terms page
+[ ] FAQ page
+[ ] 404 page
+[ ] order page
+
+I would like to express my strongest support for Digigammon, that can resolve a time-consuming, annoying challenge: manual transcription. To transcribe a match manually takes roughly the same time as playing the match. The human labor hours saved by Digigammon will be tens of thousands every year.
+Marc Brockmann Olsen, CEO of Backgammon Galaxy
+
+It was a great experience to test out NEAR REAL-TIME AUTOMATIC transcription software provided by DIGIGAMMON. The transcription of our 7pt-match with Jurgen took only 3 minutes.
+Michihito Kageyama
+
+So looking forward to the project really think it will help the backgammon so much
+Sebastiaan Kuijs
+
+Best of luck Team DG in making this happen; This will be a huge success and a big time saver for sure at all the tournaments.
+Stephen Soukup
+
+Such a cool product! This is truly amazing!
+Jeroen Dutch
+
+
+
+I tested at Merit Park. The program is amazing, the Team is outstanding. That is for sure a clear TAKE. Can‘t wait for a chance to get this tool.
+Michael Weidner
+
+Great innovative product. You will have little problem selling to just about every BG player. Well done.
+Frank Farjood
+
+
+Nick Blasier
+
+
+
